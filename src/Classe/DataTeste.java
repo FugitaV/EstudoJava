@@ -5,17 +5,17 @@ public class DataTeste {
 	public static void main(String[] args) {
 		
 		Data d1 = new Data();
-		d1.ano = 2021;
+		d1.ano = 2001;
 		d1.dia = 26;
 		d1.mes = 05;
-		
-		System.out.printf("%d/%d/%d\n", d1.dia, d1.mes, d1.ano);
+		var data1Formatada = d1.obterDataFormatada();
+		System.out.println(data1Formatada);
 	
 		var d2 = new Data();
 		d2.ano = 2025;
 		d2.dia = 10;
 		d2.mes = 06;
-		
-		System.out.printf("%d/%d/%d\n", d2.dia, d2.mes, d2.ano);
+		var data2Formatada = d2.obterDataFormatada();
+		System.out.println(data2Formatada);
 	}
 }
