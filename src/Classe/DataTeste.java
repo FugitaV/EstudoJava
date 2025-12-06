@@ -17,5 +17,13 @@ public class DataTeste {
 		d2.mes = 06;
 		var data2Formatada = d2.obterDataFormatada();
 		System.out.println(data2Formatada);
+		
+		var d3 = new Data();
+		var data3Formatada = d3.obterDataFormatada();
+		System.out.println(data3Formatada);
+		
+		var d4 = new Data(10,04,2015);
+		var data4Formatada = d4.obterDataFormatada();
+		System.out.println(data4Formatada);
 	}
 }
